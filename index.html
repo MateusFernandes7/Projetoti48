@@ -1,12 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meu Site - Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Pet ShoouP</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Bem-vindo ao Pet ShoouP</h2>
+                <p>Um site onde você vai cuidar do seu pet</p>
+                <a href="#sobre" class="btn">Saiba Mais...</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>Somos uma empresa dedicada a higiene de seu pet.</p>
+                    <p>Nossa missão é ajudar seu pet a ter uma saúde positiva, onde ele vai poder usufluir da vida!</p>
+                </div>
+                <div class="sobre-image">
+                    <div class="placeholder-image">
+                        🖼️ Imagem Sobre
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon">💻</div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criamos sites modernos e responsivos usando as melhores tecnologias do mercado.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">📱</div>
+                    <h3>Design Responsivo</h3>
+                    <p>Seu site funcionará perfeitamente em todos os dispositivos: desktop, tablet e mobile.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">⚡</div>
+                    <h3>Otimização SEO</h3>
+                    <p>Melhoramos o posicionamento do seu site nos mecanismos de busca.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <h3>Informações de Contato</h3>
+                    <div class="info-item">
+                        <strong>📧 Email:</strong> ottoguerrerogarcia@gmail.com
+                    </div>
+                    <div class="info-item">
+                        <strong>📞 Telefone:</strong> (15) 99813-1495
+                    </div>
+                    <div class="info-item">
+                        <strong>📍 Endereço:</strong> Rua Gabriel, 123 - São Paulo, SP
+                    </div>
+                </div>
+                <form class="contato-form">
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu email" required>
+                    <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 PetShooup. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
-<H1>teste</H1>
 </html>
